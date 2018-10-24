@@ -37,6 +37,10 @@ class Taxi_Service
   def assignTaxi#(names)
     # taking the riders in @riderQueue and adding them to each taxi
     # if the number of seats in taxi, is greater than the number of riders, add riders to taxi. Until number of seats equals number of riders.
+
+# this is a random comment
+
+
     taxi = Taxi.new("Bob", 4, "Honda", "Civic", 1234)
     while taxi.seats > 0
       p 'picking up rider'
@@ -57,7 +61,7 @@ class Taxi_Service
 end
 
 
- 
+
 
 new_service = Taxi_Service.new
 new_taxi = Taxi.new("Bobby", 5, "Toyota", "Corola", 5432)
