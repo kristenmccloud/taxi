@@ -39,6 +39,7 @@ class Taxi_Service
     # if the number of seats in taxi, is greater than the number of riders, add riders to taxi. Until number of seats equals number of riders.
 
 # this is a random comment
+# another random comment
 
 
     taxi = Taxi.new("Bob", 4, "Honda", "Civic", 1234)
